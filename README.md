@@ -1,11 +1,8 @@
-# Peerlab
+# Financial Charts
 
-Connecting academy with market.
+Visualize financial data.
 
-## References
+# Requirements
 
-### Configure testing environment
-
-- Getting Started, https://jestjs.io/docs/getting-started
-- Customizing Babel Config, https://nextjs.org/docs/advanced-features/customizing-babel-config
-- Testing NextJS with React testing library and Jest, https://www.youtube.com/watch?v=hjUPya2EnDs&ab_channel=EricAdamski
+- [] Fetch data from Yahoo API using stock name as input;
+- [] Plot data using react-financial-charts;

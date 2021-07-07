@@ -6,24 +6,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Peerlab</title>
+        <title>Financial Charts</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
 
       <div className={styles.contentContainer}>
         <main>
           <section>
-            <img src="/images/peerlab-icon.svg" alt="Peerlab" width={300} height={300} />
+            <h1>Chart Here!</h1>
           </section>
         </main>
-        <footer>
-          Powered by
-          <span>
-            <a href="https://www.peerlab.com.br" target="_blank" rel="noreferrer">
-              <img src="/images/peerlab-logo.svg" alt="Peerlab" width={100} height={15} />
-            </a>
-          </span>
-        </footer>
       </div>
     </>
   );
