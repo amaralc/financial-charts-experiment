@@ -24,22 +24,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
-      img {
-        object-fit: contain;
-      }
-    }
-  }
-
-  footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    span {
-      margin-left: 1rem;
     }
   }
 }
