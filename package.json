@@ -1,0 +1,36 @@
+{
+  "name": "peerlab-fe-dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test:unit": "jest",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "babel-jest": "^27.0.1",
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1",
+    "jest": "^27.0.1",
+    "prettier": "^2.3.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}
